@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nav = window!.rootViewController as! UINavigationController
         
         // Get a reference to the actual view controller
-        let tvc = nav.topViewController as! ExampleList
+        let tvc = nav.topViewController as! ProgramList
         
         // Pass the model object to the controller
         tvc.model = model

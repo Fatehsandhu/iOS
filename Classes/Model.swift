@@ -14,7 +14,8 @@ import CoreData
 
 class Model {
     let cdStack: CDStack
-    let frc_example: NSFetchedResultsController<Example>
+    //let frc_example: NSFetchedResultsController<Example>
+    let frc_program: NSFetchedResultsController<Program>
 
     // MARK: - Public methods
 
@@ -44,7 +45,7 @@ class Model {
 
         cdStack = CDStack()
 
-        frc_example = cdStack.frcForEntityNamed("Example", withPredicateFormat: nil, predicateObject: nil, sortDescriptors: [NSSortDescriptor(key: "attribute1", ascending: true)], andSectionNameKeyPath: nil)
+        frc_program = cdStack.frcForEntityNamed("Program", withPredicateFormat: nil, predicateObject: nil, sortDescriptors: [NSSortDescriptor(key: "code", ascending: true)], andSectionNameKeyPath: nil)
 
         if useStoreInitializer {
             // In init(), you can only use 'self' after all properties have been initialised. Leave this function near the end.

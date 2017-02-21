@@ -24,7 +24,7 @@ class ExampleList: UITableViewController, NSFetchedResultsControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        frc = model.frc_example
+        //frc = model.frc_program
 
         // This controller will be the frc delegate
         frc.delegate = self;
