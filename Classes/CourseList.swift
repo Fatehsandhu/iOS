@@ -1,5 +1,5 @@
 //
-//  ProgramList.swift
+//  CourseList.swift
 //  Classes
 //
 //  Created by Fateh Sandhu on 2017-02-21.
@@ -9,23 +9,18 @@
 import UIKit
 import CoreData
 
-class ProgramList: UITableViewController, NSFetchedResultsControllerDelegate {
-    
+class CourseList: UITableViewController {
     var model: Model!
+    var courses : [Course]!
     
-    var frc: NSFetchedResultsController<Program>!
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        frc = model.frc_program
-        frc.delegate = self
-        frc.fetchRequest.predicate = nil
-        do {
-            try frc.performFetch()
-        } catch let error as NSError {
-            print(error.description)
-        }
+
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,27 +31,23 @@ class ProgramList: UITableViewController, NSFetchedResultsControllerDelegate {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return self.frc.sections?.count ?? 0
+        // #warning Incomplete implementation, return the number of sections
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.frc.sections?[section].numberOfObjects ?? 0
+        return courses.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
-        
-        //var program = model.frc_program
-        
-        let item: Program = frc.object(at: indexPath)
-        cell.textLabel!.text = item.code
-        cell.detailTextLabel!.text = item.fullName
-        cell.imageView?.image = UIImage(named: item.credential!)
-        
+        cell.textLabel!.text = courses[indexPath.row].code
+        cell.detailTextLabel!.text = courses[indexPath.row].fullName
+
         return cell
     }
- 
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -93,23 +84,11 @@ class ProgramList: UITableViewController, NSFetchedResultsControllerDelegate {
     }
     */
 
-    
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     if segue.identifier == "toCourseList" {
-     // Get a reference to the destination view controller
-        let vc = segue.destination as! CourseList
-     
-        let item: Program = model.frc_program.object(at: self.tableView.indexPathForSelectedRow!)
-     
-        let courses = item.courses!.sortedArray(using: [NSSortDescriptor(key: "code", ascending: true)]) as! [Course]
-     // Pass on the object
-        vc.courses = courses
-     
-     // Configure the view if you wish
-        vc.title = "\(item.code ?? "Default course") courses"
-        }
+        
+
     }
+    */
+
 }
