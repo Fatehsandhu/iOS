@@ -88,6 +88,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="pgs-Ec-HgA" kind="show" identifier="toCourseDetail" id="tbb-pY-HLJ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -100,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="1774" y="409"/>
         </scene>
-        <!--Example Detail-->
+        <!--Course Detail-->
         <scene sceneID="d5O-tP-aun">
             <objects>
-                <viewController id="pgs-Ec-HgA" customClass="ExampleDetail" customModule="Classes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pgs-Ec-HgA" customClass="CourseDetail" customModule="Classes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wKA-YX-8Qh"/>
                         <viewControllerLayoutGuide type="bottom" id="fCf-bX-ipq"/>
@@ -111,12 +114,38 @@
                     <view key="view" contentMode="scaleToFill" id="NFq-iB-wRI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saP-7r-9j6">
+                                <rect key="frame" x="16" y="72" width="288" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="jhbj" translatesAutoresizingMaskIntoConstraints="NO" id="K7w-ic-eXn">
+                                <rect key="frame" x="16" y="121" width="288" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="jhbj" translatesAutoresizingMaskIntoConstraints="NO" id="wnR-BC-YDp">
+                                <rect key="frame" x="16" y="257" width="288" height="291"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9sZ-nw-j8A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2768" y="409"/>
+            <point key="canvasLocation" x="2685" y="408.80281690140845"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qXZ-aq-3Z1">
