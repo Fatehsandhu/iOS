@@ -10,26 +10,25 @@ import UIKit
 
 class CourseDetail: UIViewController {
 
+    var code : String!
+    var name : String!
+    var desc : String!
+    
+    @IBOutlet weak var courseLabel: UILabel!
+    @IBOutlet weak var nameLabel: UITextView!
+    @IBOutlet weak var descLabel: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        courseLabel.text! = code
+        nameLabel.text! = name
+        descLabel.text! = desc
     }
 
+    /*
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     */
 }

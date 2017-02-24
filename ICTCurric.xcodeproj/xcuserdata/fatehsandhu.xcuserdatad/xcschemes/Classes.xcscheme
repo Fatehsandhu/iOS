@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0EBF3401A7E55E400ABA631"
                BuildableName = "Classes.app"
-               BlueprintName = "Classes"
-               ReferencedContainer = "container:Classes.xcodeproj">
+               BlueprintName = "ICTCurric"
+               ReferencedContainer = "container:ICTCurric.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0EBF3551A7E55E400ABA631"
                BuildableName = "ClassesTests.xctest"
-               BlueprintName = "ClassesTests"
-               ReferencedContainer = "container:Classes.xcodeproj">
+               BlueprintName = "ICTCurricTests"
+               ReferencedContainer = "container:ICTCurric.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0EBF3401A7E55E400ABA631"
             BuildableName = "Classes.app"
-            BlueprintName = "Classes"
-            ReferencedContainer = "container:Classes.xcodeproj">
+            BlueprintName = "ICTCurric"
+            ReferencedContainer = "container:ICTCurric.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,8 +67,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0EBF3401A7E55E400ABA631"
             BuildableName = "Classes.app"
-            BlueprintName = "Classes"
-            ReferencedContainer = "container:Classes.xcodeproj">
+            BlueprintName = "ICTCurric"
+            ReferencedContainer = "container:ICTCurric.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -86,8 +86,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0EBF3401A7E55E400ABA631"
             BuildableName = "Classes.app"
-            BlueprintName = "Classes"
-            ReferencedContainer = "container:Classes.xcodeproj">
+            BlueprintName = "ICTCurric"
+            ReferencedContainer = "container:ICTCurric.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

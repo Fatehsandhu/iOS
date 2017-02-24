@@ -27,7 +27,7 @@ class Model {
     }
 
     init() {
-        var useStoreInitializer = true
+        var useStoreInitializer = false
         if Model.isFirstLaunch() {
             // URL to the object store file in the app bundle
             let storeFileInBundle = Bundle.main.url(forResource: "ObjectStore", withExtension: "sqlite")

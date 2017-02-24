@@ -21,9 +21,6 @@
 		D0EBF36D1A7E573000ABA631 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBF36C1A7E573000ABA631 /* Model.swift */; };
 		D0EBF36F1A7E57CA00ABA631 /* CDStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBF36E1A7E57CA00ABA631 /* CDStack.swift */; };
 		D0EBF39F1A7E89E800ABA631 /* StoreInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBF39E1A7E89E800ABA631 /* StoreInitializer.swift */; };
-		D0EBF3A11A7E99C500ABA631 /* ExampleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBF3A01A7E99C500ABA631 /* ExampleList.swift */; };
-		D0EBF3A31A7E99E200ABA631 /* ExampleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBF3A21A7E99E200ABA631 /* ExampleDetail.swift */; };
-		EBBD74831E4BF4DB005E88BB /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD74821E4BF4DB005E88BB /* Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,21 +40,18 @@
 		C4C80F1F1E5D3DA1001A1EF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C4C80F211E5D4111001A1EF1 /* CourseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		D078C9B31A7EBAC9007420C3 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
-		D0EBF3411A7E55E400ABA631 /* Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EBF3411A7E55E400ABA631 /* ICTCurric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICTCurric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EBF3451A7E55E400ABA631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EBF3461A7E55E400ABA631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0EBF34D1A7E55E400ABA631 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0EBF3501A7E55E400ABA631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D0EBF3561A7E55E400ABA631 /* ClassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EBF3561A7E55E400ABA631 /* ICTCurricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICTCurricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EBF35B1A7E55E400ABA631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EBF35C1A7E55E400ABA631 /* ClassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTests.swift; sourceTree = "<group>"; };
 		D0EBF36A1A7E571400ABA631 /* ObjectModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectModel.xcdatamodel; sourceTree = "<group>"; };
 		D0EBF36C1A7E573000ABA631 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D0EBF36E1A7E57CA00ABA631 /* CDStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDStack.swift; sourceTree = "<group>"; };
 		D0EBF39E1A7E89E800ABA631 /* StoreInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreInitializer.swift; sourceTree = "<group>"; };
-		D0EBF3A01A7E99C500ABA631 /* ExampleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleList.swift; sourceTree = "<group>"; };
-		D0EBF3A21A7E99E200ABA631 /* ExampleDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleDetail.swift; sourceTree = "<group>"; };
-		EBBD74821E4BF4DB005E88BB /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				D078C9B31A7EBAC9007420C3 /* Readme.txt */,
-				D0EBF3431A7E55E400ABA631 /* Classes */,
+				D0EBF3431A7E55E400ABA631 /* ICTCurric */,
 				D0EBF3591A7E55E400ABA631 /* ClassesTests */,
 				D0EBF3421A7E55E400ABA631 /* Products */,
 			);
@@ -91,20 +85,18 @@
 		D0EBF3421A7E55E400ABA631 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0EBF3411A7E55E400ABA631 /* Classes.app */,
-				D0EBF3561A7E55E400ABA631 /* ClassesTests.xctest */,
+				D0EBF3411A7E55E400ABA631 /* ICTCurric.app */,
+				D0EBF3561A7E55E400ABA631 /* ICTCurricTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0EBF3431A7E55E400ABA631 /* Classes */ = {
+		D0EBF3431A7E55E400ABA631 /* ICTCurric */ = {
 			isa = PBXGroup;
 			children = (
 				C4C80F1B1E5C0A00001A1EF1 /* ProgramList.swift */,
 				C4C80F1D1E5CF42C001A1EF1 /* CourseList.swift */,
 				C4C80F211E5D4111001A1EF1 /* CourseDetail.swift */,
-				D0EBF3A01A7E99C500ABA631 /* ExampleList.swift */,
-				D0EBF3A21A7E99E200ABA631 /* ExampleDetail.swift */,
 				D0EBF3681A7E56E700ABA631 /* Persistence */,
 				D0EBF3461A7E55E400ABA631 /* AppDelegate.swift */,
 				D0EBF34D1A7E55E400ABA631 /* Images.xcassets */,
@@ -112,6 +104,7 @@
 				D0EBF34F1A7E55E400ABA631 /* LaunchScreen.xib */,
 				D0EBF3441A7E55E400ABA631 /* Supporting Files */,
 			);
+			name = ICTCurric;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -148,7 +141,6 @@
 				D0EBF36C1A7E573000ABA631 /* Model.swift */,
 				D0EBF36E1A7E57CA00ABA631 /* CDStack.swift */,
 				D0EBF39E1A7E89E800ABA631 /* StoreInitializer.swift */,
-				EBBD74821E4BF4DB005E88BB /* Example.swift */,
 			);
 			name = Persistence;
 			sourceTree = "<group>";
@@ -156,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0EBF3401A7E55E400ABA631 /* Classes */ = {
+		D0EBF3401A7E55E400ABA631 /* ICTCurric */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0EBF3601A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "Classes" */;
+			buildConfigurationList = D0EBF3601A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "ICTCurric" */;
 			buildPhases = (
 				D0EBF33D1A7E55E400ABA631 /* Sources */,
 				D0EBF33E1A7E55E400ABA631 /* Frameworks */,
@@ -168,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = Classes;
+			name = ICTCurric;
 			productName = Classes;
-			productReference = D0EBF3411A7E55E400ABA631 /* Classes.app */;
+			productReference = D0EBF3411A7E55E400ABA631 /* ICTCurric.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0EBF3551A7E55E400ABA631 /* ClassesTests */ = {
+		D0EBF3551A7E55E400ABA631 /* ICTCurricTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0EBF3631A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "ClassesTests" */;
+			buildConfigurationList = D0EBF3631A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "ICTCurricTests" */;
 			buildPhases = (
 				D0EBF3521A7E55E400ABA631 /* Sources */,
 				D0EBF3531A7E55E400ABA631 /* Frameworks */,
@@ -186,9 +178,9 @@
 			dependencies = (
 				D0EBF3581A7E55E400ABA631 /* PBXTargetDependency */,
 			);
-			name = ClassesTests;
+			name = ICTCurricTests;
 			productName = ClassesTests;
-			productReference = D0EBF3561A7E55E400ABA631 /* ClassesTests.xctest */;
+			productReference = D0EBF3561A7E55E400ABA631 /* ICTCurricTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,6 +194,7 @@
 				TargetAttributes = {
 					D0EBF3401A7E55E400ABA631 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = K3RLFZGG2V;
 						LastSwiftMigration = 0820;
 					};
 					D0EBF3551A7E55E400ABA631 = {
@@ -211,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D0EBF33C1A7E55E400ABA631 /* Build configuration list for PBXProject "Classes" */;
+			buildConfigurationList = D0EBF33C1A7E55E400ABA631 /* Build configuration list for PBXProject "ICTCurric" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0EBF3401A7E55E400ABA631 /* Classes */,
-				D0EBF3551A7E55E400ABA631 /* ClassesTests */,
+				D0EBF3401A7E55E400ABA631 /* ICTCurric */,
+				D0EBF3551A7E55E400ABA631 /* ICTCurricTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,11 +253,8 @@
 				D0EBF3471A7E55E400ABA631 /* AppDelegate.swift in Sources */,
 				D0EBF36B1A7E571400ABA631 /* ObjectModel.xcdatamodeld in Sources */,
 				C4C80F1E1E5CF42C001A1EF1 /* CourseList.swift in Sources */,
-				D0EBF3A31A7E99E200ABA631 /* ExampleDetail.swift in Sources */,
-				EBBD74831E4BF4DB005E88BB /* Example.swift in Sources */,
 				D0EBF39F1A7E89E800ABA631 /* StoreInitializer.swift in Sources */,
 				C4C80F1A1E5BDF68001A1EF1 /* EntityClasses.swift in Sources */,
-				D0EBF3A11A7E99C500ABA631 /* ExampleList.swift in Sources */,
 				C4C80F221E5D4111001A1EF1 /* CourseDetail.swift in Sources */,
 				C4C80F1C1E5C0A00001A1EF1 /* ProgramList.swift in Sources */,
 				D0EBF36D1A7E573000ABA631 /* Model.swift in Sources */,
@@ -284,7 +274,7 @@
 /* Begin PBXTargetDependency section */
 		D0EBF3581A7E55E400ABA631 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D0EBF3401A7E55E400ABA631 /* Classes */;
+			target = D0EBF3401A7E55E400ABA631 /* ICTCurric */;
 			targetProxy = D0EBF3571A7E55E400ABA631 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,10 +380,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K3RLFZGG2V;
 				INFOPLIST_FILE = Classes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.senecacollege.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Classes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatehsandhu;
+				PRODUCT_NAME = ICTCurric;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -402,10 +393,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K3RLFZGG2V;
 				INFOPLIST_FILE = Classes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.senecacollege.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Classes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatehsandhu;
+				PRODUCT_NAME = ICTCurric;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -425,7 +417,7 @@
 				INFOPLIST_FILE = ClassesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.senecacollege.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ClassesTests;
+				PRODUCT_NAME = ICTCurricTests;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -441,7 +433,7 @@
 				INFOPLIST_FILE = ClassesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.senecacollege.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ClassesTests;
+				PRODUCT_NAME = ICTCurricTests;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -449,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0EBF33C1A7E55E400ABA631 /* Build configuration list for PBXProject "Classes" */ = {
+		D0EBF33C1A7E55E400ABA631 /* Build configuration list for PBXProject "ICTCurric" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0EBF35E1A7E55E400ABA631 /* Debug */,
@@ -458,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0EBF3601A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "Classes" */ = {
+		D0EBF3601A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "ICTCurric" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0EBF3611A7E55E400ABA631 /* Debug */,
@@ -467,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0EBF3631A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "ClassesTests" */ = {
+		D0EBF3631A7E55E400ABA631 /* Build configuration list for PBXNativeTarget "ICTCurricTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0EBF3641A7E55E400ABA631 /* Debug */,

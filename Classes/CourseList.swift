@@ -87,8 +87,25 @@ class CourseList: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-
+        if segue.identifier == "toCourseDetail" {
+            
+            let vc = segue.destination as! CourseDetail
+            
+            let row = self.tableView.indexPathForSelectedRow!.row
+        
+            vc.code = courses[row].code
+            vc.desc = courses[row].courseDescription
+            vc.name = courses[row].fullName
+            
+            vc.title = "\(courses[row].code!) info"
+        }
     }
     
 
 }
+
+
+
+
+
+
